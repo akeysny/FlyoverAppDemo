@@ -7,3 +7,5 @@ Enjoy!
 # App Walkthrough GIF
 
 <img src="http://g.recordit.co/iKgEjwcYbT.gif" width=250><br>
+
+<img src="http://g.recordit.co/K0esejGmGM.gif" width=250><br>
