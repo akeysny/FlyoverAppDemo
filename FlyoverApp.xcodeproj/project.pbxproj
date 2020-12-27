@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6D3484B2598546000CD4A78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D3484A2598546000CD4A78 /* AppDelegate.swift */; };
+		D6D3484D2598546000CD4A78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D3484C2598546000CD4A78 /* SceneDelegate.swift */; };
+		D6D3484F2598546000CD4A78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D3484E2598546000CD4A78 /* ViewController.swift */; };
+		D6D348522598546000CD4A78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6D348502598546000CD4A78 /* Main.storyboard */; };
+		D6D348542598546000CD4A78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6D348532598546000CD4A78 /* Assets.xcassets */; };
+		D6D348572598546000CD4A78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6D348552598546000CD4A78 /* LaunchScreen.storyboard */; };
+		D6D348622598546000CD4A78 /* FlyoverAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D348612598546000CD4A78 /* FlyoverAppTests.swift */; };
+		D6D3486D2598546000CD4A78 /* FlyoverAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D3486C2598546000CD4A78 /* FlyoverAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6D3485E2598546000CD4A78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6D3483F2598546000CD4A78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6D348462598546000CD4A78;
+			remoteInfo = FlyoverApp;
+		};
+		D6D348692598546000CD4A78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6D3483F2598546000CD4A78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6D348462598546000CD4A78;
+			remoteInfo = FlyoverApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6D348472598546000CD4A78 /* FlyoverApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyoverApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6D3484A2598546000CD4A78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6D3484C2598546000CD4A78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D6D3484E2598546000CD4A78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6D348512598546000CD4A78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6D348532598546000CD4A78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6D348562598546000CD4A78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6D348582598546000CD4A78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6D3485D2598546000CD4A78 /* FlyoverAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyoverAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6D348612598546000CD4A78 /* FlyoverAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyoverAppTests.swift; sourceTree = "<group>"; };
+		D6D348632598546000CD4A78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6D348682598546000CD4A78 /* FlyoverAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyoverAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6D3486C2598546000CD4A78 /* FlyoverAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyoverAppUITests.swift; sourceTree = "<group>"; };
+		D6D3486E2598546000CD4A78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6D348442598546000CD4A78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D3485A2598546000CD4A78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D348652598546000CD4A78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6D3483E2598546000CD4A78 = {
+			isa = PBXGroup;
+			children = (
+				D6D348492598546000CD4A78 /* FlyoverApp */,
+				D6D348602598546000CD4A78 /* FlyoverAppTests */,
+				D6D3486B2598546000CD4A78 /* FlyoverAppUITests */,
+				D6D348482598546000CD4A78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6D348482598546000CD4A78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6D348472598546000CD4A78 /* FlyoverApp.app */,
+				D6D3485D2598546000CD4A78 /* FlyoverAppTests.xctest */,
+				D6D348682598546000CD4A78 /* FlyoverAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6D348492598546000CD4A78 /* FlyoverApp */ = {
+			isa = PBXGroup;
+			children = (
+				D6D3484A2598546000CD4A78 /* AppDelegate.swift */,
+				D6D3484C2598546000CD4A78 /* SceneDelegate.swift */,
+				D6D3484E2598546000CD4A78 /* ViewController.swift */,
+				D6D348502598546000CD4A78 /* Main.storyboard */,
+				D6D348532598546000CD4A78 /* Assets.xcassets */,
+				D6D348552598546000CD4A78 /* LaunchScreen.storyboard */,
+				D6D348582598546000CD4A78 /* Info.plist */,
+			);
+			path = FlyoverApp;
+			sourceTree = "<group>";
+		};
+		D6D348602598546000CD4A78 /* FlyoverAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6D348612598546000CD4A78 /* FlyoverAppTests.swift */,
+				D6D348632598546000CD4A78 /* Info.plist */,
+			);
+			path = FlyoverAppTests;
+			sourceTree = "<group>";
+		};
+		D6D3486B2598546000CD4A78 /* FlyoverAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6D3486C2598546000CD4A78 /* FlyoverAppUITests.swift */,
+				D6D3486E2598546000CD4A78 /* Info.plist */,
+			);
+			path = FlyoverAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6D348462598546000CD4A78 /* FlyoverApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6D348712598546000CD4A78 /* Build configuration list for PBXNativeTarget "FlyoverApp" */;
+			buildPhases = (
+				D6D348432598546000CD4A78 /* Sources */,
+				D6D348442598546000CD4A78 /* Frameworks */,
+				D6D348452598546000CD4A78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlyoverApp;
+			productName = FlyoverApp;
+			productReference = D6D348472598546000CD4A78 /* FlyoverApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6D3485C2598546000CD4A78 /* FlyoverAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6D348742598546000CD4A78 /* Build configuration list for PBXNativeTarget "FlyoverAppTests" */;
+			buildPhases = (
+				D6D348592598546000CD4A78 /* Sources */,
+				D6D3485A2598546000CD4A78 /* Frameworks */,
+				D6D3485B2598546000CD4A78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6D3485F2598546000CD4A78 /* PBXTargetDependency */,
+			);
+			name = FlyoverAppTests;
+			productName = FlyoverAppTests;
+			productReference = D6D3485D2598546000CD4A78 /* FlyoverAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6D348672598546000CD4A78 /* FlyoverAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6D348772598546000CD4A78 /* Build configuration list for PBXNativeTarget "FlyoverAppUITests" */;
+			buildPhases = (
+				D6D348642598546000CD4A78 /* Sources */,
+				D6D348652598546000CD4A78 /* Frameworks */,
+				D6D348662598546000CD4A78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6D3486A2598546000CD4A78 /* PBXTargetDependency */,
+			);
+			name = FlyoverAppUITests;
+			productName = FlyoverAppUITests;
+			productReference = D6D348682598546000CD4A78 /* FlyoverAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6D3483F2598546000CD4A78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					D6D348462598546000CD4A78 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					D6D3485C2598546000CD4A78 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = D6D348462598546000CD4A78;
+					};
+					D6D348672598546000CD4A78 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = D6D348462598546000CD4A78;
+					};
+				};
+			};
+			buildConfigurationList = D6D348422598546000CD4A78 /* Build configuration list for PBXProject "FlyoverApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6D3483E2598546000CD4A78;
+			productRefGroup = D6D348482598546000CD4A78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6D348462598546000CD4A78 /* FlyoverApp */,
+				D6D3485C2598546000CD4A78 /* FlyoverAppTests */,
+				D6D348672598546000CD4A78 /* FlyoverAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6D348452598546000CD4A78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D348572598546000CD4A78 /* LaunchScreen.storyboard in Resources */,
+				D6D348542598546000CD4A78 /* Assets.xcassets in Resources */,
+				D6D348522598546000CD4A78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D3485B2598546000CD4A78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D348662598546000CD4A78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6D348432598546000CD4A78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D3484F2598546000CD4A78 /* ViewController.swift in Sources */,
+				D6D3484B2598546000CD4A78 /* AppDelegate.swift in Sources */,
+				D6D3484D2598546000CD4A78 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D348592598546000CD4A78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D348622598546000CD4A78 /* FlyoverAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D348642598546000CD4A78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D3486D2598546000CD4A78 /* FlyoverAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6D3485F2598546000CD4A78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6D348462598546000CD4A78 /* FlyoverApp */;
+			targetProxy = D6D3485E2598546000CD4A78 /* PBXContainerItemProxy */;
+		};
+		D6D3486A2598546000CD4A78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6D348462598546000CD4A78 /* FlyoverApp */;
+			targetProxy = D6D348692598546000CD4A78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6D348502598546000CD4A78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6D348512598546000CD4A78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6D348552598546000CD4A78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6D348562598546000CD4A78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6D3486F2598546000CD4A78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6D348702598546000CD4A78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6D348722598546000CD4A78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlyoverApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.FlyoverApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6D348732598546000CD4A78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlyoverApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.FlyoverApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6D348752598546000CD4A78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlyoverAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.FlyoverAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyoverApp.app/FlyoverApp";
+			};
+			name = Debug;
+		};
+		D6D348762598546000CD4A78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlyoverAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.FlyoverAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyoverApp.app/FlyoverApp";
+			};
+			name = Release;
+		};
+		D6D348782598546000CD4A78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlyoverAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.FlyoverAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlyoverApp;
+			};
+			name = Debug;
+		};
+		D6D348792598546000CD4A78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlyoverAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.FlyoverAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlyoverApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6D348422598546000CD4A78 /* Build configuration list for PBXProject "FlyoverApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D3486F2598546000CD4A78 /* Debug */,
+				D6D348702598546000CD4A78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6D348712598546000CD4A78 /* Build configuration list for PBXNativeTarget "FlyoverApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D348722598546000CD4A78 /* Debug */,
+				D6D348732598546000CD4A78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6D348742598546000CD4A78 /* Build configuration list for PBXNativeTarget "FlyoverAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D348752598546000CD4A78 /* Debug */,
+				D6D348762598546000CD4A78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6D348772598546000CD4A78 /* Build configuration list for PBXNativeTarget "FlyoverAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D348782598546000CD4A78 /* Debug */,
+				D6D348792598546000CD4A78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6D3483F2598546000CD4A78 /* Project object */;
+}
